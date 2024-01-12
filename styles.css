@@ -1,0 +1,128 @@
+* {
+text-align: center;
+align-items: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 20px;
+    position: relative;
+    /* Agrega esta línea para posicionar correctamente los elementos hijos */
+}
+
+h1 {
+    margin: 0;
+    align-items: center;
+}
+
+#cart {
+    background-color: #4CAF50;
+    display: flex;
+    align-items: center;
+}
+
+#cart-items {
+    margin-right: 10px;
+}
+
+.arrow {
+    color: red;
+    font-size: 100px;
+  margin-right: auto;
+    /* Ajusta el espacio entre la flecha y el carrito */
+    margin-left: 10px;
+    transform: rotate(180deg);
+    /* Rotar la flecha hacia la izquierda */
+
+}
+
+#product-added {
+    background-color: #4CAF50;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    position: relative;
+    left: 0;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1em;
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    /* Ajusta la altura según tus necesidades */
+}
+
+.product-container {
+    display: flex;
+    gap: 20px;
+    /* Ajusta el espacio entre los productos */
+}
+
+.product {
+    text-align: center;
+    max-width: 300px;
+    /* Ajusta el ancho máximo según tus necesidades */
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.add-to-cart-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+#cart-list {
+    list-style: none;
+    padding: 0;
+}
+
+#cart-list li {
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1em 20px;
+}
